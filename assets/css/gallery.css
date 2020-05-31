@@ -1,0 +1,40 @@
+
+table{
+	background-color: none;
+	margin:200px;
+	border: 1px solid red;
+    padding: 10px;
+}
+.contain{
+	display: flex;
+	justify-content: center;
+	
+}
+.main{
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	width: 60%;
+	height: 100%;
+}
+.tables1{
+	background-color:none;
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+	border: solid 2px black;
+    border-radius: 5px;
+    border-collapse: collapse;
+    padding-top: 0;
+}
+.tables1 td {
+	border: solid 1px black;
+    text-align: center;
+    vertical-align: top;
+    padding: 0 .1cm;
+}
+@media  screen and (max-width: 480px) {
+	.main{
+		width: 80%;
+	}
+}
